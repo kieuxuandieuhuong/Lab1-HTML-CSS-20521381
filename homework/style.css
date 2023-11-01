@@ -1,0 +1,116 @@
+/* Thiết lập font và màu nền toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Định dạng liên kết */
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #0073e6;
+}
+
+/* Định dạng hình ảnh */
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* Định dạng class "half-width" */
+.half-width {
+    width: 50%;
+}
+
+/* Định dạng phần nội dung */
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    flex-wrap: wrap; /* Nếu số lượng phần tử nhiều, thì nó sẽ tự động xuống dòng */
+    justify-content: 10px; /* Canh giữa các phần tử con trên dòng */
+}
+
+/* Định dạng mỗi phần tử li */
+li {
+    
+    display: flex; /* Sử dụng display: flex; để các phần tử con nằm trên cùng một dòng */
+    font-style: bold;
+    flex-basis: 10%; /* Chia đều không gian trên dòng cho mỗi phần tử li và thêm khoảng cách */
+    margin: 10px; /* Khoảng cách giữa các phần tử li */
+}
+
+ul p{
+    margin: 20px;
+    display: block;
+}
+
+
+/* Định dạng nút "Subscribe" */
+button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Định dạng tiêu đề */
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Định dạng các đoạn văn bản in nghiêng */
+em {
+    font-style: italic;
+}
+
+/* Định dạng các đoạn văn bản đậm */
+b {
+    font-weight: bold;
+}
+
+/* Định dạng bảng */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Định dạng bản quyền và trích dẫn */
+blockquote {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+cite {
+    font-style: italic;
+}
+
+/* Định dạng địa chỉ */
+address {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 14px;
+}
